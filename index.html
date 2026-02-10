@@ -11,8 +11,12 @@
 <body>
     <main class="main-container">
         <section class="sectionHome">
+        <header>
             <nav class="homeNav">
                 <span class="navLogo">Sophia<br>Sacramento</span>
+                    <div class="menuMobileIcon">
+                        <button onclick="onShow()"><img src="./Assets/menuMobileIcon.svg" alt="menuMobileIcon"></button>
+                    </div>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">Sobre mim</a></li>
@@ -23,9 +27,22 @@
                 <button class="btnContato"><span>Contato</span></button>
             </nav>
 
+            <nav class="navMobile">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Sobre mim</a></li>
+                    <li><a href="/">Projetos</a></li>
+                    <li><a href="/">Metodologias</a></li>
+                    <li><a href="/">Resumo</a></li>
+                    <hr>
+                    <button class="btnContato" id="showbtn"><span>Contato</span></button>
+                </ul>
+            </nav>
+</header>
+
             <article class="homeInfo">
                 <figure class="imagePerfil">
-                    <img src="./Assets/img/sophiaSacramento.png" alt="Sophia Sacramento">
+                    <img src="./Assets/img/sophiaSacramento.webp" alt="Sophia Sacramento">
                 </figure>
                 <div class="tituloInfo">
                     <h1>Sophia Sacramento</h1>
@@ -45,6 +62,7 @@
 
 
     </main>
+    <script src="./Assets/js/main.js"></script>
 </body>
 
 </html>
