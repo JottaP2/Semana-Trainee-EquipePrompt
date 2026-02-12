@@ -193,10 +193,11 @@
     max-width: 1000px;
 }
 
-#h1hdrskls { 
+.h1hdrskls { 
+    font-size: 32px;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
-    font-size: 26px;
+    white-space: nowrap;
 }
 .linhahrskls {
     background-color: #ffffff;
@@ -237,7 +238,7 @@
     backdrop-filter: blur(10px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 40px;
+    padding: 10px;
     color: white;
 }
 
