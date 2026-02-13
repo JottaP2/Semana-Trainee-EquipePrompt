@@ -1,0 +1,48 @@
+body{
+    background-color: #E6A49B;
+    font-family: "Inter", sans-serif;
+    max-width: 1200px;
+    padding: 15px;
+}
+  
+h2{
+    color: rgb(56, 53, 53);
+    text-align: center;
+    margin-top: 60px;
+}
+.paragrafos{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.foto{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.foto2{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.foto3{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.foto4{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.img{
+    float: right;
+}
