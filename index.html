@@ -10,7 +10,7 @@
 
 <body>
     <main class="main-container">
-        <section class="sectionHome">
+        <section class="sectionHome" id="home">
             <header>
                 <nav class="homeNav">
                     <span class="navLogo">Sophia<br>Sacramento</span>
@@ -18,22 +18,22 @@
                         <button onclick="onShow()"><img src="./Assets/menuMobileIcon.svg" alt="menuMobileIcon"></button>
                     </div>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Sobre mim</a></li>
-                        <li><a href="/">Projetos</a></li>
-                        <li><a href="/">Metodologias</a></li>
-                        <li><a href="/">Resumo</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#metodologias">Metodologias</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                     <button class="btnContato"><span>Contato</span></button>
                 </nav>
 
                 <nav class="navMobile">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Sobre mim</a></li>
-                        <li><a href="/">Projetos</a></li>
-                        <li><a href="/">Metodologias</a></li>
-                        <li><a href="/">Resumo</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#metodologias">Metodologias</a></li>
+                        <li><a href="#contato">Contato</a></li>
                         <hr>
                         <button class="btnContato" id="showbtn"><span>Contato</span></button>
                     </ul>
@@ -56,7 +56,7 @@
             <div class="linhaStyle"></div>
         </section>
 
-        <section class="sectionSobre">
+        <section class="sectionSobre" id="sobre">
             <article class="sobreInfo">
                 <h1>Sobre mim</h1>
                 <div class="textSobre">
@@ -104,7 +104,56 @@
             </div>
         </section>
 
-        <section class="sectionMetodologias">
+                     <section class="sectionProjetos" id="projetos">
+            <article class="projetosInfo">
+                <h1>Projetos</h1>
+                <div class="cardsProjetos">
+                    <div class="cardProjeto">
+                        <figure class="imagemProjeto">
+                            <img src="./Assets/img/imageTeste02.png" alt="Projeto 1">
+                        </figure>
+                        <div class="cardConteudo">
+                            <h3>Nome do Projeto 1</h3>
+                            <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                            <a href="https://github.com/sophiasacramento2/projeto1" target="_blank" class="btnGithub">
+                                <img src="./Assets/github.svg" alt="GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cardProjeto">
+                        <figure class="imagemProjeto">
+                            <img src="./Assets/img/imageTeste01.png" alt="Projeto 2">
+                        </figure>
+                        <div class="cardConteudo">
+                            <h3>Nome do Projeto 2</h3>
+                            <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                            <a href="https://github.com/sophiasacramento2/projeto2" target="_blank" class="btnGithub">
+                                <img src="./Assets/github.svg" alt="GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cardProjeto">
+                        <figure class="imagemProjeto">
+                            <img src="./Assets/img/imageTeste03.png" alt="Projeto 3">
+                        </figure>
+                        <div class="cardConteudo">
+                            <h3>Nome do Projeto 3</h3>
+                            <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                            <a href="https://github.com/sophiasacramento2/projeto3" target="_blank" class="btnGithub">
+                                <img src="./Assets/github.svg" alt="GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="sectionMetodologias" id="metodologias">
             <article class="metodologiasInfo">
                 <h1>Metodologias</h1>
                 <div class="tabelaMetodos">
@@ -151,7 +200,7 @@
             </article>
         </section>
 
-        <footer class="rodape">
+        <footer class="rodape" id="contato">
             <div class="infoRodape">
             <div class="rodapeInformacao">
                 <h2>

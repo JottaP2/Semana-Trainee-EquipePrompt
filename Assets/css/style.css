@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -329,8 +333,7 @@
 /* Rodapé */
 .rodape {
     background-color: #CE8E85;
-    padding: 40px 60px;
-
+    padding: 40px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -392,6 +395,108 @@
 /* Hover: quando tu passa o mause por cima para clicar ele fica mais trnsparente */
 .rodapeContato a:hover {
     opacity: 0.8;
+}
+
+
+
+.sectionProjetos {
+    background: linear-gradient(to right, #FFBBB2, #B67770);
+    padding: 80px 60px;
+}
+
+.projetosInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projetosInfo > h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.cardsProjetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+.cardProjeto {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardProjeto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.imagemProjeto {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imagemProjeto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.cardProjeto:hover .imagemProjeto img {
+    transform: scale(1.1);
+}
+
+.cardConteudo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cardConteudo h3 {
+    font-size: 22px;
+    color: white;
+    margin: 0;
+}
+
+.cardConteudo p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.btnGithub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    background-color: #453C3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btnGithub:hover {
+    background-color: #2B2B2B;
+}
+
+.btnGithub img {
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -750,5 +855,45 @@
     .metodo img {
         width: 20px;
         height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sectionProjetos {
+        padding: 50px 20px;
+    }
+
+    .projetosInfo > h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .cardsProjetos {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sectionProjetos {
+        padding: 30px 15px;
+    }
+
+    .projetosInfo > h1 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .cardConteudo h3 {
+        font-size: 18px;
+    }
+
+    .cardConteudo p {
+        font-size: 13px;
+    }
+
+    .btnGithub {
+        padding: 10px 16px;
+        font-size: 14px;
     }
 }
