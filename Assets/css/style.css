@@ -19,7 +19,7 @@ html{
 .sectionHome {
     display: flex;
     flex-direction: column;
-    background-image: url(../img/background.webp);
+    background-image: url(../img/background.jpg);
 }
 
 .homeNav {
