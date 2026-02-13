@@ -1,0 +1,64 @@
+.sectionhrskls {
+    background: linear-gradient(to right, #FFBBB2,#B67770);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.skillsInfo{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.h1hdrskls { 
+    font-size: 32px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+}
+.linhahrskls {
+    background-color: #ffffff;
+    height: 2px;
+    width: 85%;
+}
+.alinhamentohomehdrskls { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.sectiontextohs {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+}
+.texto1hs, .texto2hs { /* inviseble */
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    color: white;
+} 
+.imgicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    gap: 20px;
+}
+.pocketblock { 
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    color: white;
+}
