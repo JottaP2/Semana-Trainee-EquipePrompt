@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rodape {
+    background-color: #CE8E85;
+    padding: 40px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.rodapeInformacaoLogo {
+    font-family: "Oleo Script", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 44px;
+    line-height: 36px;
+    color: white;
+}
+
+.rodapeInformacaoCargo {
+    font-weight: 600; 
+    color: #453C3C;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.rodapeContato {
+    display: flex;
+    gap: 40px; 
+}
+
+.rodapeContato a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #453C3C;
+}
+
+.rodapeContato img {
+    width: 36px;
+    height: 36px;
+}
+
+.rodapeContato a:hover {
+    opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+    .rodape {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rodapeContato {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .rodapeInformacaoLogo {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .rodapeContato a {
+        font-size: 16px;
+    }
+
+    .rodapeContato img {
+        width: 24px;
+        height: 24px;
+    }
+}
