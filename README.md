@@ -1,149 +1,135 @@
-# 🚀 Semana Imersão Trainee da Diretoria de Projetos – RocketJR
+# 📱 Portfólio Sophia Sacramento
 
-Este repositório faz parte das atividades da Semana de Trainee e tem como objetivo avaliar a organização, clareza e capacidade de documentação do projeto, além do desenvolvimento técnico. Contendo o projeto desenvolvido durante a **Imersão da Diretoria de Projetos da RocketJR – Janeiro/2026**.
-
-O objetivo da atividade é simular o ciclo completo de um projeto real, desde o contato inicial com o cliente até a entrega final com deploy, aplicando boas práticas de organização, versionamento, comunicação e desenvolvimento técnico.
-
-## 📌 Orientações
-
-- Cada equipe (ou participante) deve detalhar neste README todas as informações relevantes do projeto.
-- É obrigatório descrever de forma clara:
-- Os requisitos do projeto
-- As tecnologias utilizadas
-- As instruções para execução (se aplicável)
-- Qualquer outra informação que ajude no entendimento do projeto
-
-📝 Observação
-
-Este README faz parte da avaliação técnica e de processo da Imersão.
-
-Um README bem estruturado e explicativo é parte essencial do processo. Clareza, organização e coerência entre requisitos, protótipo e entrega final são critérios fundamentais
-
----
+Landing Page profissional desenvolvida como portfólio para apresentação de carreira, projetos e habilidades na área de QA/Tester.
 
 ## 📌 Sobre o Projeto
 
-> **Descreva aqui, em poucas linhas, o que foi desenvolvido.**  
-> Explique o tipo de solução (ex: Landing Page), o objetivo do projeto e o contexto geral.
-
-**Exemplo:**  
-Este projeto consiste no desenvolvimento de uma Landing Page institucional para um cliente real da RocketJR, com foco em apresentação de serviços e captação de contatos, seguindo os requisitos levantados em reunião com o cliente.
-
+Este projeto consiste em uma Landing Page responsiva e moderna, desenvolvida para apresentar a trajetória profissional de Sophia Sacramento, especialista em Quality Assurance. O site conta com seções organizadas para facilitar a navegação e apresentação de informações relevantes sobre experiência, projetos e metodologias de trabalho.
 
 ## 👥 Equipe
 
-> Liste os integrantes do grupo. Caso desejem, podem indicar responsabilidades.
+João Marinho
+Ana Cleide
+Rayane Mayara
+Emilly Matias
+Felipe Machado
 
-- Nome – Função (opcional)
-- Nome – Função
-- Nome – Função
+## 🎯 Objetivo
 
+Criar uma presença online profissional que destaque:
+- Experiência em testes automatizados e manuais
+- Portfólio de projetos desenvolvidos
+- Conhecimento em metodologias ágeis
+- Facilitar contato profissional
 
-## 🎯 Cliente
+## ✨ Funcionalidades
 
-> Informe quem é o cliente e qual a necessidade principal identificada.
-
-- **Cliente:**  
-- **Objetivo do projeto:**  
-
-
-## 📋 Levantamento de Requisitos
-
-> Esta seção é **obrigatória**.  
-> Os requisitos **não foram fornecidos pela RocketJR** — eles devem ser levantados, documentados e validados pelo grupo.
-
-### Requisitos Funcionais
-Descreva as funcionalidades que o sistema deve possuir.
-
-- RF01 –  
-- RF02 –  
-
-### Requisitos Não Funcionais
-Descreva critérios de qualidade, desempenho, usabilidade, responsividade, etc.
-
-- RNF01 –  
-- RNF02 –  
-
-📎 *Os registros formais de validação (ata, mensagens ou confirmação do cliente) devem ser enviados no Classroom.*
-
-
-## 🎨 Prototipação
-
-> Informe como foi realizada a prototipação e a validação visual do projeto.
-
-- **Ferramenta utilizada:** Figma  
-- **Link do protótipo:**  [INSERIR LINK]
-- **Status:** Aprovado pelo cliente  
-
+- **Navegação Responsiva**: Menu adaptável para dispositivos móveis com animações suaves
+- **Seção Home**: Apresentação inicial com foto de perfil e descrição profissional
+- **Sobre Mim**: Informações detalhadas sobre experiência e formação
+- **Hard Skills**: Destaque de competências técnicas com ícones das tecnologias
+- **Projetos**: Cards interativos com links diretos para repositórios no GitHub
+- **Metodologias**: Lista de frameworks e metodologias utilizadas
+- **Rodapé com Contatos**: Links para e-mail e GitHub
 
 ## 🛠️ Tecnologias Utilizadas
 
-> Liste as linguagens, frameworks e ferramentas escolhidas.  
-> A escolha tecnológica é livre e será considerada na avaliação conforme complexidade, adequação e organização.
+- **HTML5**: Estruturação semântica do conteúdo
+- **CSS3**: Estilização com técnicas modernas
+  - Flexbox e Grid Layout
+  - Animações e transições
+  - Media queries para responsividade
+- **JavaScript**: Interatividade do menu mobile
+- **Google Fonts**: Tipografia (Poppins e Oleo Script)
 
-Exemplo:
-- HTML  
-- CSS  
-- Framework / Biblioteca (se aplicável)  
+## 🎨 Paleta de Cores
 
-
-## 🔧 Organização e Versionamento
-
-Este projeto seguiu as diretrizes da Diretoria de Projetos da RocketJR:
-
-- Repositório criado a partir de **fork** do repositório base;
-- Desenvolvimento realizado exclusivamente neste fork;
-- Uso de commits frequentes e bem descritos;
-- Organização clara de pastas e arquivos;
-- Pull Request aberto ao final da atividade.
-
-
-## 🌐 Deploy
-
-> Informe onde o projeto foi publicado e como pode ser acessado.
-
-- **Plataforma de deploy:**  
-- **Link do deploy:**  
-
-*A escolha da plataforma é livre, desde que o resultado seja funcional, estável e público.*
-
+- `#E7A49B` - Rosa claro (fundo seções)
+- `#FFBBB2` - Rosa pastel (gradientes)
+- `#B67770` - Terracota (gradientes)
+- `#453C3C` - Marrom escuro (texto e botões)
+- `#2B2B2B` - Cinza escuro (hover effects)
+- `#FFFFFF` - Branco (textos e elementos)
 
 ## 📂 Estrutura do Projeto
 
-> Apresente a estrutura principal do projeto.
-
-```bash
-/
-├── ...
 ```
-
-**Exemplo:**  
-
-```bash
 /
 ├── index.html
-├── css/
-├── assets/
-└── README.md
+├── README.md
+├── Assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   │   ├── background.jpg
+│   │   ├── sophiaSacramento.jpg
+│   │   ├── Cypress.png
+│   │   ├── js.png
+│   │   ├── selenium.png
+│   │   ├── git.png
+│   │   ├── github.png
+│   │   ├── iconVerificado.png
+│   │   └── [imagens de projetos]
+│   ├── js/
+│   │   └── main.js
+│   ├── menuMobileIcon.svg
+│   ├── email.svg
+│   ├── github.svg
+│   └── curriculoSophiaSacramento.pdf
 ```
+
+## 🚀 Como Executar
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/sophiasacramento2/portfolio.git
+```
+
+2. Navegue até o diretório do projeto:
+```bash
+cd portfolio
+```
+
+3. Abra o arquivo `index.html` em seu navegador ou utilize uma extensão como Live Server no VS Code.
+
+## 🎯 Destaques Técnicos
+
+### Menu Mobile Interativo
+Implementação de menu hambúrguer com animações escalonadas usando a função `onShow`:
+
+```javascript
+function onShow(){
+    const menuMobile = document.querySelector('.navMobile');
+    menuMobile.classList.toggle('open');
+}
+```
+
+### Efeito Glassmorphism
+Cards de projetos e hard skills utilizam backdrop-filter para criar efeito de vidro fosco moderno.
+
+### Smooth Scroll
+Navegação suave entre seções implementada via CSS:
+
+```css
+html {
+    scroll-behavior: smooth;
+}
+```
+
+## 🌐 Deploy
+
+- **Plataforma sugerida**: Vercel 
+- **Link do deploy**: (https://portifolioss.vercel.app)
+
+## 📧 Contato
+
+- **Email**: sophia.santos@arapiraca.ufal.br
+- **GitHub**: [@sophiasacramento2](https://github.com/sophiasacramento2)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para utilizá-lo como base para seu próprio portfólio.
 
 ---
 
-## 📝 Observações Finais
-
-> Após as alterações do README dentro do fork, vocês irão apagar as informações descritividas que serviram de orientação para que fique apenas as informações do projeto.
-
-**Exemplo:**  
-Dentro de "Sobre o Projeto", irão apagar a parte descritiva e deixando a explicação, ficando assim:
-
-
-📌 Sobre o Projeto
-
-Este projeto consiste no desenvolvimento de uma Landing Page institucional para um cliente real da RocketJR, com foco em apresentação de serviços e captação de contatos, seguindo os requisitos levantados em reunião com o cliente.
-
-
-## 📎 Referências e Materiais de Apoio
-- Guia de Projetos RocketJR
-- Padrões de Commits (Conventional Commits)
-- Material sobre Métodos Ágeis
-- Documentação das tecnologias utilizadas
+**Desenvolvido com 💜 por joão Marinho, Felipe Machado, Ana Cleide, Emilly Matias e Rayane Mayara**
