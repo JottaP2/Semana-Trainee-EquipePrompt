@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -207,7 +207,7 @@ html{
     text-decoration: none;
 }
 
-.btnSobre:hover{
+.btnSobre:hover {
     background-color: #B67770;
 }
 
@@ -278,8 +278,8 @@ html{
 
 .texto1hs p span,
 .texto2hs p span {
-    color: #2C2424; 
-    font-weight: 600; 
+    color: #2C2424;
+    font-weight: 600;
 }
 
 .imgicons {
@@ -423,7 +423,7 @@ html{
     margin: 0 auto;
 }
 
-.projetosInfo > h1 {
+.projetosInfo>h1 {
     font-size: 35px;
     color: white;
     margin-bottom: 50px;
@@ -874,7 +874,7 @@ html{
         padding: 50px 20px;
     }
 
-    .projetosInfo > h1 {
+    .projetosInfo>h1 {
         font-size: 28px;
         margin-bottom: 30px;
     }
@@ -890,7 +890,7 @@ html{
         padding: 30px 15px;
     }
 
-    .projetosInfo > h1 {
+    .projetosInfo>h1 {
         font-size: 24px;
         margin-bottom: 25px;
     }
