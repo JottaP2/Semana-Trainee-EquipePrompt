@@ -79,6 +79,7 @@ html{
     background-color: #453C3C;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 
@@ -158,6 +159,7 @@ html{
     cursor: pointer;
     margin-bottom: 40px;
     transition: 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 .btnProjetos:hover {
@@ -196,14 +198,17 @@ html{
 
 .btnSobre {
     padding: 15px 40px 15px 40px;
-    border-radius: 25px;
+    border-radius: 10px;
     color: white;
     border: none;
-    background: linear-gradient(to right, #453C3C, #AB9595);
+    background-color: #453C3C;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    border: 1px solid #CE8E85;
+}
+
+.btnSobre:hover{
+    background-color: #B67770;
 }
 
 .sobreInfo {
@@ -269,6 +274,12 @@ html{
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 20px;
     color: white;
+}
+
+.texto1hs p span,
+.texto2hs p span {
+    color: #2C2424; 
+    font-weight: 600; 
 }
 
 .imgicons {
